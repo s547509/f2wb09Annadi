@@ -2,6 +2,10 @@ extends layout
 
 block content
   h1= title
+<<<<<<< HEAD
+  p Welcome to the #{title}
+  <button type = "button" class = "btn btn-secondary"> Press Me</button>
+=======
   p Welcome to #{title} <br>
     button(type='button',class='btn btn-warning' onClick="doBump()") Press Me
     a(href="http://icecream") 
@@ -15,3 +19,4 @@ block content
         document.getElementById('bump').innerHTML=`count ${count} with bump ${bump}`
 
       }
+>>>>>>> 5cd7b7939b10324a344a5444ded45c0b52fc3527
